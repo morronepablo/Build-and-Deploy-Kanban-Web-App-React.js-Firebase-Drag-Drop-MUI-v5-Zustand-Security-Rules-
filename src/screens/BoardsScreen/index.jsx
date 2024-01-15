@@ -1,5 +1,11 @@
+import Topbar from "./Topbar";
+
 const BoardsScreen = () => {
-  return <div>BoardsScreen</div>;
+  return (
+    <>
+      <Topbar />
+    </>
+  );
 };
 
 export default BoardsScreen;
